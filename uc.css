@@ -1,0 +1,63 @@
+:root{
+    --bg : #191919;
+    --text : #d6d6d6;
+    --dark-text : #1f1f1f;
+    --dark : #D85C00;
+    --mid : #FFA600;
+    --light : #F3DB00;
+  }
+  
+  html, body {
+    width: 100%;
+    margin: 0px;
+    border: -1;
+    display: block;
+    margin: 0;
+    background-color: var(--bg);
+    font-style: normal;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: var(--text);
+    overflow: hidden;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    overflow-y:auto;
+    overflow-x: hidden;
+  }
+  
+  main{
+    scroll-behavior: smooth;
+    height: 100vh;
+  }
+  
+  
+
+  #ucCanvas{
+    position: absolute;
+    z-index: -1;
+  }
+
+  #label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  #label h1 {
+    z-index: 1;
+    color: var(--text);
+    font-size: 5vh;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
