@@ -1,0 +1,29 @@
+:root {
+    --bg : #191919;
+    --text : #d6d6d6;
+
+    /* main menu */
+    --set1-dark : #D85C00;
+    --set1-mid : #FFA600;
+    --set1-light : #F3DB00;
+
+    /* suas */
+    --set2-dark : #1C1F38;
+    --set2-mid : #1C434A;
+    --set2-light : #198965;
+
+    /* soft eng */
+    --set3-dark : #093500;
+    --set3-mid : #427D00;
+    --set3-light : #009A04;
+
+    /* cv / quals */
+    --set4-dark : #141414;
+    --set4-mid : #3E3E3E;
+    --set4-light : #EAEAEA;
+
+    /* blog */
+    --set5-dark : #485DA6;
+    --set5-mid : #00A1BA;
+    --set5-light : #00BF98;
+}
