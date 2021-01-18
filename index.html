@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
     <title> Dominic's Website </title>
+    <link rel="icon" type="image/png" href="/assets/Favicon.jpg"/>
     <meta charset="UTF-8" name="viewport" content="width=device-width, height=device-height, initial-scale=1">
-    
+
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/header-footer.css">
+
 
     <script type="text/javascript" src="scripts/express-useragent.js"></script>
     <script type="module" src="scripts/siteData.mjs"></script>
@@ -22,32 +25,116 @@
     <header>
 
         <div id="navbar">
-            <button class=navBTN>Home</button>
-            <button class=navBTN>CV-Quals</button>
-            <button class=navBTN>SoftEng</button>
-            <button class=navBTN>SUAS</button>
-            <button class=navBTN>Contact</button>
-            <button class=navBTN>Explorer</button>
-            <button class=navBTN>Playground</button>
+
+            <button class="navBTN">Home</button>
+            <button class="navBTN">CV-Quals</button>
+            <button class="navBTN">SoftEng</button>
+            <button class="navBTN">SUAS</button>
+            <button class="navBTN">Contact</button>
+            <button class="navBTN">Explorer</button>
+            <button class="navBTN">Playground</button>
+
         </div>
 
     </header>
 
 
     <main>
-        <canvas id="indexCanvas">
 
-            
+
+        <canvas id="indexCanvas"></canvas>
+
+
+        <div id=titleText>
+
+            <h1>Hello, i'm <span id="nameText">Dominic Terry</span></h1>
+            <h2>I'm an undergraduate Software Engineer at Portsmouth University,</h2>
+            <h2>and a member of the Southampton University Air Squadron.</h2>
+
+        </div>
+
+        <div id=infoContainer>
+
+            <div class="pair left">
+                <div class="infoBox left" id="info1"></div>
+                <div class="infoBox right" id="info2"></div>
+            </div>
+            <div class="pair right">
+                <div class="infoBox left" id="info3"></div>
+                <div class="infoBox right" id="info4"></div>
+            </div>
+
+        </div>
+
+        <div id=infoContainer>
+        <div class="pair left">
+
+            <div class="infoBox left fade">
+                
+            </div>
+            <div class="infoBox right fade">
+                
+            </div>
+        </div>
+        <div class="pair right">
+
+            <div class="infoBox left fade">
+                
+            </div>
+            <div class="infoBox right fade">
+                
+            </div>
+        </div>
+        </div>
+
+
+
+
+
+
 
         </canvas>
 
-<h1>
-    as <hr> many <hr> breaks <hr> as <hr> i <hr> can <hr>
-    as <hr> many <hr> breaks <hr> as <hr> i <hr> can <hr>
-    as <hr> many <hr> breaks <hr> as <hr> i <hr> can <hr>
-    as <hr> many <hr> breaks <hr> as <hr> i <hr> can <hr>
-    as <hr> many <hr> breaks <hr> as <hr> i <hr> can <hr>
-</h1>
+        <div>
+            <h1>
+                as
+                <hr> many
+                <hr> breaks
+                <hr> as
+                <hr> i
+                <hr> can
+                <hr>
+                as
+                <hr> many
+                <hr> breaks
+                <hr> as
+                <hr> i
+                <hr> can
+                <hr>
+                as
+                <hr> many
+                <hr> breaks
+                <hr> as
+                <hr> i
+                <hr> can
+                <hr>
+                as
+                <hr> many
+                <hr> breaks
+                <hr> as
+                <hr> i
+                <hr> can
+                <hr>
+                as
+                <hr> many
+                <hr> breaks
+                <hr> as
+                <hr> i
+                <hr> can
+                <hr>
+            </h1>
+
+        </div>
 
 
     </main>
@@ -56,7 +143,8 @@
     <!--            Final script                -->
     <script type="module" src="scripts/index.mjs"></script>
     <script type="text/javascript" src="scripts/headerControl.js"></script>
-    
+
 
 </body>
+
 </html>

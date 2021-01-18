@@ -6,9 +6,6 @@ class point {
         this.cIndex = cIndex;
     }
 }
-
-
-
 let pointList = [];
 let ctx;
 let colours;
@@ -37,8 +34,7 @@ function updatePoints() {
     for (let p of pointList) {
         p.x = p.x + p.velocity;
 
-        if (p.x > ctx.canvas.width) {
-
+        if (p.x > ctx.canvas.width || p.x < 0 ) {
             pointList.splice(pointList.indexOf(p), 1);
         } else {
 
@@ -59,7 +55,7 @@ function makePoints() {
     for (let i = 0; i <= ctx.canvas.height; i++) {
         let rand = (Math.random() * 1000);
         if (rand <= 5) {
-            let temp = new point(0, i, (Math.random() * 3) + 1, Math.round(Math.random() * 2));
+            let temp = new point(0, i, (Math.random() * 2) + 1, Math.round(Math.random() * 2));
             pointList.push(temp);
         }
     }

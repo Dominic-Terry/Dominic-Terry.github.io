@@ -1,7 +1,5 @@
 export let device = null;
-
 import { moveToSite, params, appendDataToURL, currentURL } from './siteData.mjs';
-
 
 if ((params?.get('device') != undefined)) {
     device = params.get('device');
@@ -10,7 +8,6 @@ if ((params?.get('device') != undefined)) {
     appendDataToURL(currentURL, "device", device);
     moveToSite("Home", device);
 }
-
 
 function identifyUser() {
     device = null;
