@@ -44,18 +44,97 @@
     box-shadow: 0 0 5px 8px var(--bg) inset;
   }
 
+  .infoBox h2{
+    margin: 5%;
+    position: relative;
+    overflow: auto;
+    text-align: center;
+    margin-top: 10%;
+
+    top: 20%;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+
+  #UoPL{
+    color: #822dcf;
+    text-decoration: none;
+    font-weight: bolder;
+    font-style: italic;
+  }
+
+  #SUASL{
+    color:  #5D8AA8;
+    text-decoration: none;
+    font-weight: bolder;
+    font-style: italic;
+  }
+
+
+  .infoBox p{
+    margin: 5%;
+    position: relative;
+    overflow: auto;
+    height: 0px;
+
+    top: 20%;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+
+  .infoBox hr{
+    overflow: hidden;
+    position: relative;
+    border: 0px solid;
+    background:var(--text);
+    border-radius: 10px;
+    height: 0.5vh;
+    width: auto;
+    margin: 4%;
+    padding: 0px;
+
+    top: 20%;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+
+
+  .infoBox:hover h2{
+    top: 0px;
+  }
+  .infoBox:hover p{
+    top: 0px;
+    height: auto;
+  }
+  .infoBox:hover hr{
+    top: 0px;
+  }
+
+  .img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+  }
+
   .fade{
     opacity: 0;
     background: var(--bg);
 
-    -moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
   }
 
   .fade:hover{
-    opacity: 0.6;
+    opacity: 0.9;
   }
 
   .left{
@@ -91,30 +170,21 @@
     padding-bottom: 2vh;
   }
 
-  #info1{ /*Me*/
+  /* Images */
+  #img1{ /*Me*/
     background-image: url('../assets/Me.jpg');
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: -75px;
   }
 
-  #info2{ /*Soft Eng*/
+  #img2{ /*Soft Eng*/
     background-image: url('../assets/Code.png');
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 
-  #info3{ /*SUAS*/
+  #img3{ /*SUAS*/
     background-image: url('../assets/SUAS.jpg');
-    background-repeat: no-repeat;
-    background-position: 0px,-10px;
-    background-size: cover;
   }
 
-  #info4{ /*MISC*/
-    background-image: url('../assets/.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+  #img4{ /*MISC*/
+    background-image: url('../assets/UoP.jpg');
   }
   
 

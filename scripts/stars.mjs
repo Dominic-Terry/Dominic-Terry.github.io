@@ -43,11 +43,8 @@ function updatePoints() {
             } else {
                 p.cIndex++;
             }
-
         }
-
     }
-
 }
 
 function makePoints() {
