@@ -1,5 +1,5 @@
 import { device } from './identify.mjs';
-
+import { addBTNListeners } from './siteData.mjs';
 
 let colours = {
     text: getComputedStyle(document.documentElement).getPropertyValue('--text'),
@@ -25,6 +25,8 @@ function updateCanvasSize() {
 window.addEventListener("resize", updateCanvasSize);
 updateCanvasSize();
 
+
+addBTNListeners(document.querySelectorAll('.navBTN'),device);
 
 // start animation
 import { start } from './stars.mjs';
